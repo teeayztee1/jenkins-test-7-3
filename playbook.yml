@@ -6,7 +6,7 @@
     - name: Install Docker
       apt:
         name:
-          - docker-ce
+          - docker
           - docker-compose
         state: present
     - name: Login DockerHub
