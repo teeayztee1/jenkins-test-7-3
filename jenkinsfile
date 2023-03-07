@@ -2,7 +2,7 @@
 pipeline {
 agent any
 environment{
-DOCKER_IMAGE = "duyna11/nginx"
+DOCKER_IMAGE = "duyna165/test"
 }
 60
 stages {
